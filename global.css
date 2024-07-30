@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --raleway-medium-sm: Raleway;
+
+  /* font sizes */
+  --raleway-medium-sm-size: 0.875rem;
+  --raleway-semibold-2xl-size: 1.5rem;
+  --raleway-semibold-base-size: 1rem;
+  --raleway-semibold-xl-size: 1.25rem;
+  --raleway-bold-3xl-size: 1.875rem;
+  --raleway-bold-lg-size: 1.125rem;
+
+  /* Colors */
+  --neutral-50: #e8e9ea;
+  --neutral-100: #b8babe;
+  --color-black: #000;
+  --neutral-500: #1a202c;
+  --neutral-600: #181d28;
+  --neutral-700: #12171f;
+  --neutral-800: #0e1218;
+  --white: #fff;
+  --neutral-400: #484d56;
+  --color-darkslategray-100: #42454a;
+  --color-darkslategray-200: rgba(66, 69, 74, 0.09);
+  --color-lightgray: #cfcfd1;
+
+  /* Gaps */
+  --gap-5xl: 1.5rem;
+  --gap-xl: 1.25rem;
+  --gap-17xl: 2.25rem;
+  --gap-lg: 1.125rem;
+  --gap-3xs: 0.625rem;
+  --gap-base: 1rem;
+  --gap-11xs: 0.125rem;
+  --gap-7xl: 1.625rem;
+
+  /* Paddings */
+  --padding-xs: 0.75rem;
+  --padding-xl: 1.25rem;
+  --padding-3xs: 0.625rem;
+  --padding-7xl: 1.625rem;
+  --padding-5xl: 1.5rem;
+  --padding-2xs: 0.687rem;
+  --padding-5xs: 0.5rem;
+  --padding-9xs: 0.25rem;
+
+  /* Border radiuses */
+  --br-23xl: 42px;
+  --br-5xl: 24px;
+  --br-5xs: 8px;
+  --br-xl: 20px;
+  --br-xs: 12px;
+}

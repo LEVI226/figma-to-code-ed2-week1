@@ -1,0 +1,1221 @@
+.hero-image-icon {
+  position: absolute;
+  top: 0;
+  left: 7.5rem;
+  width: 0.063rem;
+  height: 155.375rem;
+  z-index: 1;
+}
+.frame-child {
+  position: absolute;
+  top: 13.319rem;
+  left: 45.188rem;
+  width: 37.306rem;
+  height: 36.763rem;
+}
+.hero-image-parent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.nav-logo-icon {
+  height: 2.25rem;
+  width: 2.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.about-us,
+.collections,
+.home,
+.our-blog,
+.top-sales {
+  text-decoration: none;
+  position: relative;
+  line-height: 1.5rem;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 2.875rem;
+}
+.about-us,
+.collections,
+.our-blog,
+.top-sales {
+  min-width: 4.438rem;
+}
+.about-us,
+.collections,
+.our-blog {
+  min-width: 5.375rem;
+}
+.about-us,
+.our-blog {
+  min-width: 4.125rem;
+}
+.about-us {
+  min-width: 4.25rem;
+}
+.nav-links {
+  margin: 0;
+  width: 28.063rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.75rem;
+  max-width: 100%;
+  white-space: nowrap;
+  text-align: left;
+  font-size: var(--raleway-semibold-base-size);
+  color: var(--neutral-700);
+  font-family: var(--raleway-medium-sm);
+}
+.sign-up {
+  text-decoration: none;
+  position: relative;
+  line-height: 1.5rem;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 3.625rem;
+  white-space: nowrap;
+}
+.sign-up-button {
+  border-right: 2px solid var(--neutral-800);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) 1.562rem;
+}
+.connect-wallet {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--raleway-semibold-base-size);
+  line-height: 1.5rem;
+  font-weight: 600;
+  font-family: var(--raleway-medium-sm);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 7.375rem;
+}
+.connect-wallet-button,
+.nav-buttons,
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.connect-wallet-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-7xl);
+  background-color: var(--neutral-800);
+  border-radius: var(--br-23xl);
+  justify-content: center;
+  white-space: nowrap;
+}
+.connect-wallet-button:hover,
+.filter-buttons:hover {
+  background-color: var(--color-darkslategray-100);
+}
+.nav-buttons,
+.navbar {
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.navbar {
+  width: 75rem;
+  justify-content: space-between;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.hero-divider-icon,
+.hero-title {
+  align-self: stretch;
+  max-width: 100%;
+}
+.hero-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.hero-divider-icon {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.hero-title-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.812rem;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--raleway-semibold-base-size);
+  color: var(--neutral-800);
+  font-family: var(--raleway-medium-sm);
+}
+.see-the-nft {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 6.75rem;
+  font-weight: 400;
+  font-family: inherit;
+}
+.discover-vow,
+.vorem-ipsum-dolor {
+  position: relative;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+.vorem-ipsum-dolor {
+  align-self: stretch;
+}
+.discover-vow {
+  display: inline-block;
+  min-width: 6.313rem;
+}
+.move-right-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.move-right-button {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 82px;
+  border: 1px solid var(--neutral-600);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.875rem 0.812rem;
+}
+.main-call-to-action,
+.main-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  color: var(--neutral-600);
+}
+.main-description {
+  width: 25.75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-7xl);
+  max-width: 100%;
+  font-size: var(--raleway-semibold-base-size);
+  color: var(--neutral-400);
+}
+.see-the-nft-new-world-parent {
+  width: 49.188rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 3.25rem;
+  z-index: 1;
+}
+.content,
+.hero-content,
+.see-the-nft-new-world-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.content {
+  width: 64.188rem;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.hero-content {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5.75rem;
+}
+.our-collections {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 2.25rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.all-categories {
+  position: relative;
+  font-size: var(--raleway-medium-sm-size);
+  line-height: 1.25rem;
+  font-weight: 600;
+  font-family: var(--raleway-medium-sm);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 5.75rem;
+}
+.filter-buttons {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-7xl);
+  background-color: var(--neutral-800);
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.art {
+  position: relative;
+  font-size: var(--raleway-medium-sm-size);
+  line-height: 1.25rem;
+  font-weight: 600;
+  font-family: var(--raleway-medium-sm);
+  color: var(--neutral-800);
+  text-align: left;
+  display: inline-block;
+  min-width: 1.25rem;
+}
+.filter-buttons1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-7xl);
+  background-color: var(--neutral-50);
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.filter-buttons1:hover,
+.filter-buttons2:hover,
+.filter-buttons3:hover,
+.filter-buttons4:hover {
+  background-color: var(--color-lightgray);
+}
+.celebrities {
+  position: relative;
+  font-size: var(--raleway-medium-sm-size);
+  line-height: 1.25rem;
+  font-weight: 600;
+  font-family: var(--raleway-medium-sm);
+  color: var(--neutral-800);
+  text-align: left;
+  display: inline-block;
+  min-width: 4.5rem;
+}
+.filter-buttons2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-7xl);
+  background-color: var(--neutral-50);
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.gaming {
+  position: relative;
+  font-size: var(--raleway-medium-sm-size);
+  line-height: 1.25rem;
+  font-weight: 600;
+  font-family: var(--raleway-medium-sm);
+  color: var(--neutral-800);
+  text-align: left;
+  display: inline-block;
+  min-width: 3.25rem;
+}
+.filter-buttons3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-7xl);
+  background-color: var(--neutral-50);
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.sport {
+  position: relative;
+  font-size: var(--raleway-medium-sm-size);
+  line-height: 1.25rem;
+  font-weight: 600;
+  font-family: var(--raleway-medium-sm);
+  color: var(--neutral-800);
+  text-align: left;
+  display: inline-block;
+  min-width: 2.313rem;
+}
+.filter-buttons4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-7xl);
+  background-color: var(--neutral-50);
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.filter-options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  gap: 0.5rem 0.437rem;
+  max-width: 100%;
+}
+.view-more {
+  position: relative;
+  text-decoration: underline;
+  line-height: 1.25rem;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 4.438rem;
+}
+.collections-filter {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  font-size: var(--raleway-medium-sm-size);
+  color: var(--neutral-500);
+}
+.card-image-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cyberpunk {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 5.313rem;
+}
+.ethereum-ellipse-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+}
+.card-empty {
+  position: relative;
+  line-height: 1.75rem;
+  display: inline-block;
+  min-width: 1.375rem;
+}
+.card-content,
+.card-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card-details {
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  font-size: var(--raleway-bold-lg-size);
+}
+.card-content {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.place-a-bid {
+  position: relative;
+  font-size: var(--raleway-semibold-base-size);
+  line-height: 1.5rem;
+  font-weight: 600;
+  font-family: var(--raleway-medium-sm);
+  color: var(--neutral-800);
+  text-align: left;
+  display: inline-block;
+  min-width: 5.25rem;
+}
+.card-button {
+  cursor: pointer;
+  border: 1px solid var(--neutral-800);
+  padding: var(--padding-5xs) var(--padding-xl);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.card-button:hover,
+.place-a-bid-container:hover,
+.place-a-bid-frame:hover,
+.place-a-bid-wrapper:hover {
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.card,
+.card-child {
+  flex: 1;
+  border-radius: var(--br-xl);
+}
+.card {
+  height: 21.313rem;
+  border: 1px solid var(--neutral-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-2xs);
+  gap: var(--gap-base);
+  min-width: 7.063rem;
+}
+.card-child {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.durolost-boll- {
+  position: relative;
+  line-height: 1.5rem;
+  white-space: pre-wrap;
+}
+.ethereum-ellipse-icon1 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+}
+.b {
+  position: relative;
+  line-height: 1.75rem;
+  display: inline-block;
+  min-width: 1.375rem;
+}
+.ethereum-ellipse-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  font-size: var(--raleway-bold-lg-size);
+}
+.durolost-boll-upper-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.place-a-bid1 {
+  position: relative;
+  font-size: var(--raleway-semibold-base-size);
+  line-height: 1.5rem;
+  font-weight: 600;
+  font-family: var(--raleway-medium-sm);
+  color: var(--neutral-800);
+  text-align: left;
+  display: inline-block;
+  min-width: 5.25rem;
+}
+.place-a-bid-wrapper {
+  cursor: pointer;
+  border: 1px solid var(--neutral-800);
+  padding: var(--padding-5xs) var(--padding-xl);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.card-item,
+.card1 {
+  flex: 1;
+  border-radius: var(--br-xl);
+}
+.card1 {
+  height: 21.313rem;
+  border: 1px solid var(--neutral-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-2xs);
+  gap: var(--gap-base);
+  min-width: 7.063rem;
+}
+.card-item {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.space-x-wiper {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 7rem;
+}
+.ethereum-ellipse-icon2 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+}
+.b1 {
+  position: relative;
+  line-height: 1.75rem;
+  display: inline-block;
+  min-width: 1.375rem;
+}
+.ethereum-ellipse-group,
+.space-x-wiper-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ethereum-ellipse-group {
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  font-size: var(--raleway-bold-lg-size);
+}
+.space-x-wiper-parent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.place-a-bid2 {
+  position: relative;
+  font-size: var(--raleway-semibold-base-size);
+  line-height: 1.5rem;
+  font-weight: 600;
+  font-family: var(--raleway-medium-sm);
+  color: var(--neutral-800);
+  text-align: left;
+  display: inline-block;
+  min-width: 5.25rem;
+}
+.place-a-bid-container {
+  cursor: pointer;
+  border: 1px solid var(--neutral-800);
+  padding: var(--padding-5xs) var(--padding-xl);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.card-inner,
+.card2 {
+  flex: 1;
+  border-radius: var(--br-xl);
+}
+.card2 {
+  height: 21.313rem;
+  border: 1px solid var(--neutral-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-2xs);
+  gap: var(--gap-base);
+  min-width: 7.063rem;
+}
+.card-inner {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.snoop-dogg {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 5.938rem;
+}
+.ethereum-ellipse-icon3 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+}
+.b2 {
+  position: relative;
+  line-height: 1.75rem;
+  display: inline-block;
+  min-width: 1.375rem;
+}
+.ethereum-ellipse-container,
+.snoop-dogg-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ethereum-ellipse-container {
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  font-size: var(--raleway-bold-lg-size);
+}
+.snoop-dogg-parent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.place-a-bid3 {
+  position: relative;
+  font-size: var(--raleway-semibold-base-size);
+  line-height: 1.5rem;
+  font-weight: 600;
+  font-family: var(--raleway-medium-sm);
+  color: var(--neutral-800);
+  text-align: left;
+  display: inline-block;
+  min-width: 5.25rem;
+}
+.place-a-bid-frame {
+  cursor: pointer;
+  border: 1px solid var(--neutral-800);
+  padding: var(--padding-5xs) var(--padding-xl);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+}
+.card3,
+.collections-cards,
+.place-a-bid-frame {
+  display: flex;
+  align-items: center;
+}
+.card3 {
+  height: 21.313rem;
+  flex: 1;
+  border-radius: var(--br-xl);
+  border: 1px solid var(--neutral-100);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-2xs);
+  gap: var(--gap-base);
+  min-width: 7.063rem;
+}
+.collections-cards {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  gap: 1.5rem 1.418rem;
+  font-size: var(--raleway-semibold-base-size);
+}
+.collections-section {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+  max-width: 100%;
+}
+.create-and-sell {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 2.25rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.wallet-02-icon {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.create-sell-icons {
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.set-up-your {
+  position: relative;
+  line-height: 1.75rem;
+}
+.lorem-ipsum-dolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--raleway-medium-sm-size);
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: var(--neutral-400);
+}
+.create-sell-items {
+  width: 17.625rem;
+  border-radius: var(--br-5xl);
+  background-color: var(--neutral-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-xl) var(--padding-5xl)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.cloud-download-icon {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.cloud-download-wrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.add-your-nfts {
+  position: relative;
+  line-height: 1.75rem;
+}
+.lorem-ipsum-dolor1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--raleway-medium-sm-size);
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: var(--neutral-400);
+}
+.create-sell-items1 {
+  width: 17.625rem;
+  border-radius: var(--br-5xl);
+  background-color: var(--neutral-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-xl) var(--padding-5xl)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.sale-tag-02-icon {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.sale-tag-02-wrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.promote-your-nfts {
+  position: relative;
+  line-height: 1.75rem;
+}
+.lorem-ipsum-dolor2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--raleway-medium-sm-size);
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: var(--neutral-400);
+}
+.create-sell-items2 {
+  width: 17.625rem;
+  border-radius: var(--br-5xl);
+  background-color: var(--neutral-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-xl) var(--padding-5xl)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.bitcoin-ellipse-icon {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.bitcoin-ellipse-wrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.sell-your-nfts {
+  position: relative;
+  line-height: 1.75rem;
+}
+.lorem-ipsum-dolor3 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--raleway-medium-sm-size);
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: var(--neutral-400);
+}
+.create-sell-items3 {
+  width: 17.625rem;
+  border-radius: var(--br-5xl);
+  background-color: var(--neutral-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-xl) var(--padding-5xl)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.create-sell-content,
+.createsell-section {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.create-sell-content {
+  width: 75rem;
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xl);
+  font-size: var(--raleway-semibold-xl-size);
+}
+.createsell-section {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-17xl);
+}
+.build-your-nft {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 2.5rem;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.join-almost-10k {
+  position: relative;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+.profile-description {
+  width: 40.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+  font-size: var(--raleway-semibold-xl-size);
+}
+.sign-up-now {
+  position: relative;
+  font-size: var(--raleway-semibold-base-size);
+  line-height: 1.5rem;
+  font-weight: 600;
+  font-family: var(--raleway-medium-sm);
+  color: var(--neutral-800);
+  text-align: left;
+  display: inline-block;
+  min-width: 5.875rem;
+}
+.sign-up-button-container {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-7xl);
+  background-color: var(--white);
+  border-radius: var(--br-23xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.sign-up-button-container:hover {
+  background-color: #e6e6e6;
+}
+.sign-up-button-container-wrapper {
+  width: 40.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.n-f-t-profile {
+  align-self: stretch;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4.5rem var(--padding-xl);
+  box-sizing: border-box;
+  gap: 2.5rem;
+  background-image: url(./public/n-f-t-profile@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  font-size: 4rem;
+  color: var(--white);
+}
+.footer-logo-icon {
+  width: 2.25rem;
+  height: 2.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.create-explore {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 2rem;
+  font-weight: 600;
+  font-family: inherit;
+  white-space: pre-wrap;
+}
+.about-us1,
+.privacy,
+.terms-conditions {
+  text-decoration: none;
+  position: relative;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 3rem;
+}
+.about-us1,
+.terms-conditions {
+  min-width: 7.938rem;
+}
+.about-us1 {
+  min-width: 3.813rem;
+}
+.footer-content,
+.footer-info {
+  display: flex;
+  flex-direction: row;
+}
+.footer-info {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.875rem;
+  font-size: var(--raleway-medium-sm-size);
+  color: var(--color-black);
+}
+.footer-content {
+  align-self: stretch;
+  border-top: 0.5px solid var(--neutral-100);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.937rem 0 2rem;
+  gap: var(--gap-xl);
+}
+.bottomnav,
+.collections-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bottomnav {
+  align-self: stretch;
+  gap: 0.875rem;
+  font-size: var(--raleway-semibold-2xl-size);
+  color: var(--neutral-600);
+}
+.collections-content {
+  width: 75rem;
+  gap: 6rem;
+  max-width: 100%;
+}
+.collections1,
+.desktop-landingpage {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.collections1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+  font-size: var(--raleway-bold-3xl-size);
+  color: var(--neutral-800);
+}
+.desktop-landingpage {
+  width: 100%;
+  position: relative;
+  background-color: #f8f8f8;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0;
+  gap: 19.562rem;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 7.5rem;
+  color: var(--neutral-600);
+  font-family: var(--raleway-medium-sm);
+}
+@media screen and (max-width: 1200px) {
+  .collections-content {
+    gap: 3rem;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+  .see-the-nft {
+    font-size: 3rem;
+    line-height: 4.063rem;
+  }
+  .create-and-sell,
+  .our-collections {
+    font-size: var(--raleway-semibold-2xl-size);
+    line-height: 1.813rem;
+  }
+  .build-your-nft {
+    font-size: 3.188rem;
+    line-height: 2rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .nav-links {
+    flex-wrap: wrap;
+  }
+  .hero-content {
+    gap: 2.875rem;
+  }
+  .collections-filter {
+    flex-wrap: wrap;
+  }
+  .collections-section,
+  .createsell-section {
+    gap: var(--gap-lg);
+  }
+  .n-f-t-profile {
+    gap: var(--gap-xl);
+  }
+  .collections-content {
+    gap: var(--gap-5xl);
+  }
+  .desktop-landingpage {
+    gap: 9.75rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .see-the-nft {
+    font-size: var(--raleway-bold-3xl-size);
+    line-height: 2.688rem;
+  }
+  .see-the-nft-new-world-parent {
+    gap: var(--gap-7xl);
+  }
+  .hero-content {
+    gap: 1.438rem;
+  }
+  .create-and-sell,
+  .our-collections {
+    font-size: var(--raleway-bold-lg-size);
+    line-height: 1.375rem;
+  }
+  .add-your-nfts,
+  .promote-your-nfts,
+  .sell-your-nfts,
+  .set-up-your {
+    font-size: var(--raleway-semibold-base-size);
+    line-height: 1.375rem;
+  }
+  .build-your-nft {
+    font-size: 2.375rem;
+    line-height: 1.5rem;
+  }
+  .join-almost-10k {
+    font-size: var(--raleway-semibold-base-size);
+    line-height: 1.375rem;
+  }
+  .create-explore {
+    font-size: 1.188rem;
+    line-height: 1.625rem;
+  }
+  .desktop-landingpage {
+    gap: 4.875rem;
+  }
+}
